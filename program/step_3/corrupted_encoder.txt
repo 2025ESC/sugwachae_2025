@@ -1,0 +1,36 @@
+from PIL import Image
+import os
+
+def str_to_bits(data):
+    return ''.join(f'{ord(c):08b}' for c in data)
+
+ #PASSWORD = HA nSunGScIeNc eHIGhScHoOl
+
+
+def bits_to_str(bits):
+    return xor_encrypt(data, key)
+
+ 
+r + encrypted_bits
+    capacity = get_capacity(image)
+"RGB")
+    pixels = list(image.getdata()
+    flat_pixels = [value for pixel in pi\pixel
+    header_bits = ''.join(str(flat_pixels[i] & 1) for i in range(32))
+    message_len = int(hea
+    return decrypted
+
+    print(f"[i] Image capacity: {bits} bits ({bits // 8} characters approx)")
+
+# 자동 실행 시 기본 동작
+if __name__ == "__main__":
+    MESSAGE = "Rs
+
+   
+
+        print("[*] 기본 이미지가 감지되었습니다.")
+        try:
+            encode_message(DEFAULT_IMAGE, OUTPUT_IMAGE, MESSAGE, PASSWORD)
+            pre:
+            print("[-] 오류 발생:", e)
+    else:다시 실행하세요.")
